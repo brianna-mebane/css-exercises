@@ -1,3 +1,8 @@
+* {
+  font-size: 16px;
+  padding: 10px;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -15,13 +20,20 @@ body {
 
 .content {
   background: #e3f4ff;
+  margin: 12px auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
+  display: block;
+  margin: auto;
 }
